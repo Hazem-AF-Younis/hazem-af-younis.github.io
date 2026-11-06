@@ -1,0 +1,25 @@
+---
+layout: archive
+title: "Teaching"
+permalink: /teaching/
+author_profile: true
+---
+
+{% include base_path %}
+
+<p>I teach the way I learned engineering: by building, measuring, and debugging. In large lectures I use worked examples, "what-if" prompts that ask students to predict how one change moves a whole system, and short peer activities. In the lab I teach one debugging routine that students and teaching assistants share: confirm power, probe stage by stage, compare what you expected with what you measured, and keep asking why until the root cause appears.</p>
+
+<h2>Courses I am prepared to teach</h2>
+<ul>
+<li>Digital logic and digital systems design</li>
+<li>Advanced digital design with hardware description languages (Verilog, VHDL) and FPGA labs</li>
+<li>Computer architecture</li>
+<li>Microprocessors and embedded systems</li>
+<li>Electric circuits and introductory ECE</li>
+<li>Senior design</li>
+</ul>
+
+<h2>Teaching experience</h2>
+{% for post in site.teaching reversed %}
+  {% include archive-single.html %}
+{% endfor %}
