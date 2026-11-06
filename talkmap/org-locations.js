@@ -1,22 +1,17 @@
 var addressPoints = [
   [
-    "Talk 2 on Relevant Topic in Your Field<br />London School of Testing; London, UK",
-    51.4893335,
-    -0.14405508452768728
+    "Leveraging cloud computing resources to enhance CCi-MOBILE functionality<br />Conference on Implantable Auditory Prostheses (CIAP); Lake Tahoe, CA",
+    39.0885405,
+    -120.0503528
   ],
   [
-    "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
-    37.8708393,
-    -122.272863
+    "Speaker-in-the-loop: The role of recognizable voices in cochlear implant speech intelligibility<br />Conference on Implantable Auditory Prostheses (CIAP); Lake Tahoe, CA",
+    39.0885405,
+    -120.0503528
   ],
   [
-    "Conference Proceeding talk 3 on Relevant Topic in Your Field<br />Testing Institute of America 2014 Annual Conference; Los Angeles, CA, USA",
-    34.0536909,
-    -118.242766
-  ],
-  [
-    "Talk 1 on Relevant Topic in Your Field<br />UC San Francisco, Department of Testing; San Francisco, CA, USA",
-    37.7792588,
-    -122.4193286
+    "CCi-CLOUD: A framework for community based remote cochlear implant user experiments based on the CCi-MOBILE research platform<br />Conference on Implantable Auditory Prostheses (CIAP), 2023; 183rd Meeting of the Acoustical Society of America, Nashville, TN, 2022; Lake Tahoe, CA",
+    39.0885405,
+    -120.0503528
   ]
 ];
