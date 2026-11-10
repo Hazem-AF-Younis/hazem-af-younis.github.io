@@ -26,7 +26,7 @@ The sessions come with a homework template and a worksheet for giving feedback o
 * Energy Science and Technology (Week 10).
 * Advanced Manufacturing, Biomanufacturing and Supply Chain (Week 12).
 
-I was also a speaker on the Health Innovations and Medical Devices industry panel.
+I was also a research panelist on the Health Innovation and Medical Devices panel, alongside speakers from Edwards Lifesciences, Codan and Vizient.
 
 Each sector week follows the same arc:
 * How the industry works, stage by stage.
