@@ -79,7 +79,7 @@ A four-state Mealy machine that closes a crossing gate and runs the warning flas
 <figcaption style="font-size:0.8em;">State diagram. Edge labels show sensors / gate and flasher.</figcaption>
 </figure>
 
-Two points I use when teaching this design:
+Two design points:
 
 * **Why Mealy.** In FAR, the outputs depend on the sensors directly, so the gate starts closing in the same clock cycle the train is detected, one cycle sooner than a Moore machine.
 * **Why LEAVING is its own state.** An occupied outer sensor means "close the gate" for an arriving train but "do nothing" for the tail of a departing one. The sensors look the same in both cases; only the state tells them apart.
