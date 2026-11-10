@@ -67,4 +67,5 @@ Design projects
 ------
 * **Microcoded CPU:** an 8-bit CPU with microsequencer control, built on a four-person team in Verilog and demonstrated on an Altera DE2 FPGA board.
 * **FPGA video game:** a maze-chase game on an Altera DE2 board with 640×480 VGA output, written in VHDL and Verilog.
+* **Railway crossing controller:** a Mealy state machine in Verilog with an asynchronous reset, verified with a self-written testbench across all train positions.
 * **Hardware/software co-design:** greatest common divisor, Ackermann, and k-nearest-neighbor designs built with high-level synthesis on a Zynq FPGA board, comparing hardware and software timing.
