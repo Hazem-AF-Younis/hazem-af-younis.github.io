@@ -29,6 +29,11 @@ Testing with listeners beyond the lab
 
 Speech technology on small devices
 ------
+<figure style="margin: 0.5em 0 1em;">
+<img src="/images/wfiot-pipeline.png" alt="Real-time command recognition pipeline: continuous raw audio is split into 1-second buffers, MFCC features are extracted, an on-device inference engine scores the command, and if the probability is at least 0.5 an LED is activated; otherwise nothing happens." style="max-width:100%;">
+<figcaption style="font-size:0.8em;">Deployment pipeline on the Raspberry Pi. From H. Younis and J. H. L. Hansen, IEEE WF-IoT 2021. © 2021 IEEE.</figcaption>
+</figure>
+
 **The question.** How well can voice commands be recognized in real time on a small, low-power device, and what does it cost in accuracy?
 
 **The approach.** On a Texas Instruments–sponsored project, I trained standard and depthwise-separable convolutional networks (CNN and DS-CNN) on the Google Speech Commands dataset and deployed them on a Raspberry Pi with a four-microphone array, using TensorFlow Lite with on-device feature extraction. The models reached about 95% accuracy offline, and the deployed system ran in real time under tight memory and compute limits.
