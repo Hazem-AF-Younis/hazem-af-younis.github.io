@@ -49,7 +49,19 @@ Methods I use
 
 Undergraduate mentoring
 ------
-I design research projects that undergraduates can own. This fall I am supervising a sophomore's project on slowing instructional speech for older cochlear implant listeners while keeping lip movements in sync. Earlier, I mentored a senior design team that built a mobile app for crowdsourcing audio data.
+I design research projects that undergraduates can own from the first week.
+
+**The question.** Remote listening tests often open with instruction videos, and fast narrators are hard for older cochlear implant users to follow. Many of these listeners rely on lip reading, so slowing only the audio isn't enough: the voice stays natural, but the lips stop matching the sound. Can instructional speech be slowed down while staying lip-readable?
+
+**How I set it up.** I designed this as a semester project for a sophomore undergraduate researcher and built it so she could start fast. I wrote a proposal with a semester roadmap, and chose open tools and data: the GRID audiovisual corpus, librosa, FFmpeg and the Wav2Lip lip-sync model. I picked these after finding that the original starter code lacked pretrained models. I also built a ready-to-run notebook, so her first experiment needed no setup, and a rating workbook with defined scales, automatic summaries and guided questions to structure her analysis. Each check-in has a written agenda beforehand and a one-page summary afterward.
+
+**The approach.** The student slows short talking-face clips in three ways and compares them: audio only; audio and video slowed evenly; and evenly slowed video with the lips redrawn by Wav2Lip to match the slowed audio. She ran the full pipeline end to end on her own, ahead of our next meeting.
+
+**What we learned.** The first trial produced a useful negative result. With an even slowdown, plainly slowed video already stays in sync, so the lip-sync model has nothing to fix, and it made the mouth noticeably blurrier, a real cost for lip reading. That points the project toward uneven slowdown, which is how people actually speak slowly: pauses and vowels stretch more than consonants. There, plain video can't keep up with the audio, and a model that redraws the lips from the audio should matter.
+
+**Status.** In progress. She is comparing the two slowdown methods across several clips and speeds, then running a first uneven-slowdown trial. A small listener pilot with vocoded (cochlear implant–simulated) speech is planned for spring.
+
+Earlier, I mentored a senior design team that built a mobile app for crowdsourcing audio data.
 
 Design projects
 ------
