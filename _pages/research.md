@@ -9,7 +9,7 @@ I build and test speech processing systems for people with hearing loss, across 
 
 Making unfamiliar voices easier to understand
 ------
-My doctoral research uses deep-learning voice conversion to make an unfamiliar talker sound closer to voices a cochlear implant user already knows, then tests whether that familiarity helps the listener understand the unfamiliar talker. I work with XVC and StarGAN-based voice conversion and the ACE coding strategy that cochlear implants use, and I evaluate results in listening studies, including vocoded simulations of cochlear implant hearing. This work is accepted to IEEE SLT 2026.
+My doctoral research uses deep-learning voice conversion to make an unfamiliar talker sound closer to voices a cochlear implant user already knows, then tests whether that familiarity helps the listener understand the unfamiliar talker. I work with state-of-the-art deep-learning voice conversion models and the ACE coding strategy that cochlear implants use, and I evaluate results in listening studies, including vocoded simulations of cochlear implant hearing. This work is accepted to IEEE SLT 2026.
 
 Testing with listeners beyond the lab
 ------
