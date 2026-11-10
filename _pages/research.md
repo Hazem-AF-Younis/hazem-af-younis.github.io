@@ -67,5 +67,26 @@ Design projects
 ------
 * **Microcoded CPU:** an 8-bit CPU with microsequencer control, built on a four-person team in Verilog and demonstrated on an Altera DE2 FPGA board.
 * **FPGA video game:** a maze-chase game on an Altera DE2 board with 640×480 VGA output, written in VHDL and Verilog.
-* **Railway crossing controller:** a Mealy state machine in Verilog with an asynchronous reset, verified with a self-written testbench across all train positions.
 * **Hardware/software co-design:** greatest common divisor, Ackermann, and k-nearest-neighbor designs built with high-level synthesis on a Zynq FPGA board, comparing hardware and software timing.
+* **Railway crossing controller:** a Mealy state machine in Verilog with an asynchronous reset and a self-checking testbench, shown below.
+
+### Railway crossing controller
+
+A four-state Mealy machine that closes a crossing gate and runs the warning flasher as a train passes from either direction. Three track sensors, one on the crossing and one on each side, tell it where the train is. I first built this as a graduate course project and re-implemented it here.
+
+<figure style="margin: 0.5em 0 1em;">
+<img src="/images/railway-state-diagram.png" alt="State diagram with four states in a ring. FAR goes to APPROACHING when a train is detected, closing the gate. APPROACHING goes to IN_CROSSING when the train is on the crossing. IN_CROSSING goes to LEAVING when the crossing clears. LEAVING goes back to FAR when all sensors are clear. The gate is closed in APPROACHING and IN_CROSSING and open in FAR and LEAVING. Reset returns the machine to FAR." style="max-width:100%;">
+<figcaption style="font-size:0.8em;">State diagram. Edge labels show sensors / gate and flasher.</figcaption>
+</figure>
+
+Two points I use when teaching this design:
+
+* **Why Mealy.** In FAR, the outputs depend on the sensors directly, so the gate starts closing in the same clock cycle the train is detected, one cycle sooner than a Moore machine.
+* **Why LEAVING is its own state.** An occupied outer sensor means "close the gate" for an arriving train but "do nothing" for the tail of a departing one. The sensors look the same in both cases; only the state tells them apart.
+
+<figure style="margin: 0.5em 0 1em;">
+<img src="/images/railway-waveform.png" alt="Simulation waveform of an eastbound train. The gate and flasher turn on at 16 nanoseconds, in the same clock cycle the west sensor rises and before the state leaves FAR. They turn off at 85 nanoseconds when the state becomes LEAVING, while the east sensor is still high." style="max-width:100%;">
+<figcaption style="font-size:0.8em;">Simulation of an eastbound train. The gate closes in the same cycle the train is detected and reopens once the crossing is clear.</figcaption>
+</figure>
+
+The testbench walks a train through every position from both directions, then resets the machine mid-crossing, checking the outputs and state at each step. Code: [controller](/files/railway-crossing/railway_crossing.v) and [testbench](/files/railway-crossing/railway_crossing_tb.v).
