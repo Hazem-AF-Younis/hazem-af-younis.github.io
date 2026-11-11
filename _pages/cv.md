@@ -29,8 +29,9 @@ Research and industry
 
 Certifications
 ======
-* Graduate Teaching Certificate, UT Dallas, 2025
-* Engineers Who Teach Professional Badge, 2024
+* Graduate Teaching Certificate, UT Dallas Center for Teaching and Learning, 2025
+* Engineers Who Teach Professional Badge, Erik Jonsson School, UT Dallas, 2024
+* Teaching associate training and active-learning seminars, Erik Jonsson School, UT Dallas, 2024–2026
 * Cadence certifications in Verilog and SystemC, 2020
 
 Publications
