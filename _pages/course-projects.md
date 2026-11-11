@@ -16,6 +16,7 @@ Machine learning
 
 Signal processing
 ------
+* **Real-time dynamic range compression and noise reduction** (2021). Built an Android app that applies wide dynamic range compression and noise reduction to live audio, then tested how the voice-activity threshold, sound-level threshold, and decision rate change its behavior across recordings made in different noise conditions.
 * **IIR and adaptive FIR filters on Android** (2021). Moved MATLAB filter designs into a real-time Android app, compared direct-form and second-order-section IIR filters, and watched how step size and frame size change the convergence of an adaptive (LMS) FIR filter.
 * **FFT versus DFT in real time** (2021). Implemented both transforms for live audio on an Android device and measured how frame size and sampling rate change per-frame processing time.
 
