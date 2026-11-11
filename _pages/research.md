@@ -70,6 +70,8 @@ Design projects
 * **Hardware/software co-design:** greatest common divisor, Ackermann, and k-nearest-neighbor designs built with high-level synthesis on a Zynq FPGA board, comparing hardware and software timing.
 * **Railway crossing controller:** a Mealy state machine in Verilog with an asynchronous reset and a self-checking testbench, shown below.
 
+Smaller class projects in machine learning, signal processing, FPGAs, and microcontrollers are on the [course projects](/course-projects/) page.
+
 ### Railway crossing controller
 
 A four-state Mealy machine that closes a crossing gate and runs the warning flasher as a train passes from either direction. Three track sensors, one on the crossing and one on each side, tell it where the train is. I first built this as a graduate course project and re-implemented it here.
