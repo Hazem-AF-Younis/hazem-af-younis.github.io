@@ -36,7 +36,7 @@ Speech technology on small devices
 
 **The question.** How well can voice commands be recognized in real time on a small, low-power device, and what does it cost in accuracy?
 
-**The approach.** On a Texas Instruments–sponsored project, I trained standard and depthwise-separable convolutional networks (CNN and DS-CNN) on the Google Speech Commands dataset and deployed them on a Raspberry Pi with a four-microphone array, using TensorFlow Lite with on-device feature extraction. The models reached about 95% accuracy offline, and the deployed system ran in real time under tight memory and compute limits.
+**The approach.** On a Texas Instruments–sponsored project, I trained standard and depthwise-separable convolutional networks (CNN and DS-CNN) on the Google Speech Commands dataset and deployed them on a Raspberry Pi with a four-microphone array, using TensorFlow Lite with on-device feature extraction. Across five commands, the models reached 92.9% to 98.8% test accuracy, and the deployed system ran in real time under tight memory and compute limits.
 
 **Status.** Published at IEEE WF-IoT 2021. [Code on GitHub](https://github.com/Hazem-AF-Younis/wfiot2021-embedded-command-recognition).
 
