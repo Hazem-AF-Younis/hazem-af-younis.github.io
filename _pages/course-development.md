@@ -21,7 +21,7 @@ ECS 1100 is the required first-year course for all ten Jonsson School majors. In
 
 The sessions come with a homework template and a worksheet for giving feedback on peers' recorded interview answers.
 
-**Industry sector weeks.** I built the materials for the Advanced Manufacturing, Biomanufacturing and Supply Chain week and contributed to the Semiconductors and Microelectronics and Energy Science and Technology weeks.
+**Industry sector weeks.** I built the materials for the Advanced Manufacturing, Biomanufacturing and Supply Chain week and contributed to the Semiconductors and Microelectronics week. The course team also developed an Energy Science and Technology week.
 
 I was also a research panelist on the Health Innovation and Medical Devices panel, alongside speakers from Edwards Lifesciences, Codan and Vizient.
 
@@ -31,7 +31,7 @@ Each sector week follows the same arc:
 * An ethics case, such as the 2021 Texas winter storm or a falsified batch record.
 * An analysis of real job postings showing which skills employers ask for.
 
-**Estimation and Excel.** These sessions use an estimation workbook built by Dr. Matthew Whitwer of the First Year Program, covering unit reasoning, sensitivity analysis and Goal Seek. They also use an in-class template for structuring Fermi-style estimates and a "learn one Excel function, teach it to a partner" activity from the course team.
+**Estimation and Excel.** These sessions use an estimation workbook built by Dr. Matthew Whitwer of the First Year Program, covering unit reasoning, sensitivity analysis and Goal Seek. They also use an in-class template for structuring Fermi-style estimates and a "learn one Excel function, teach it to a partner" activity, both developed by the course team.
 
 **Engagement and teaming.** With the course team, I co-developed a reflection template for the semester engagement requirement and "The Unaddressed Conflict," a short role-play that students act out and then diagnose during the teaming week.
 
