@@ -5,15 +5,15 @@ permalink: /course-development/
 author_profile: true
 ---
 
-Materials I have built for the courses I teach. Slides, templates and activities are collected in the [ECS 1100 course materials repository](https://github.com/Hazem-AF-Younis/ecs1100-course-materials).
+Course materials I have developed, on my own and with the ECS 1100 faculty team. Slides, templates and activities are collected in the [ECS 1100 course materials repository](https://github.com/Hazem-AF-Younis/ecs1100-course-materials).
 
 ECS 1100: Fall 2026 Redesign
 ------
 *Introduction to Engineering and Computer Science · UT Dallas · Fall 2026*
 
-ECS 1100 is the required first-year course for all ten Jonsson School majors. In Fall 2026 the course was rebuilt around two kinds of weeks: professional skills, and industry sectors where students meet working engineers. Students connect the two through weekly concept maps. I meet weekly with the course faculty to plan each session, and I built the lecture decks, templates and activities below. Most of them are used across every section of the course.
+ECS 1100 is the required first-year course for all ten Jonsson School majors. In Fall 2026 the First Year Program faculty team rebuilt the course around two kinds of weeks: professional skills, and industry sectors where students meet working engineers. Students connect the two through weekly concept maps. I meet weekly with that team to plan each session, and I contributed to the lecture decks, templates and activities below. Most of them are used across every section of the course.
 
-**Career readiness (Weeks 1–4).** Four sessions take students from a first concept map to a working professional profile:
+**Career readiness.** The team's four opening sessions take students from a first concept map to a working professional profile:
 * Concept maps and the engagement requirement.
 * Understanding and communicating yourself.
 * Resume review, how applicant tracking systems read resumes, and using AI as a student.
@@ -21,10 +21,10 @@ ECS 1100 is the required first-year course for all ten Jonsson School majors. In
 
 The sessions come with a homework template and a worksheet for giving feedback on peers' recorded interview answers.
 
-**Industry sector weeks.** I led the sector weeks and built their materials for:
-* Semiconductors and Microelectronics (Week 7).
-* Energy Science and Technology (Week 10).
-* Advanced Manufacturing, Biomanufacturing and Supply Chain (Week 12).
+**Industry sector weeks.** I taught the sector sessions and contributed to their materials for:
+* Semiconductors and Microelectronics.
+* Energy Science and Technology.
+* Advanced Manufacturing, Biomanufacturing and Supply Chain.
 
 I was also a research panelist on the Health Innovation and Medical Devices panel, alongside speakers from Edwards Lifesciences, Codan and Vizient.
 
@@ -34,17 +34,17 @@ Each sector week follows the same arc:
 * An ethics case, such as the 2021 Texas winter storm or a falsified batch record.
 * An analysis of real job postings showing which skills employers ask for.
 
-**Estimation and Excel (Weeks 8–9).** I built an estimation workbook covering unit reasoning, sensitivity analysis and Goal Seek, plus an in-class template for structuring Fermi-style estimates and a "learn one Excel function, teach it to a partner" activity.
+**Estimation and Excel.** These sessions use an estimation workbook built by a colleague on the course team, covering unit reasoning, sensitivity analysis and Goal Seek. They also use an in-class template for structuring Fermi-style estimates and a "learn one Excel function, teach it to a partner" activity.
 
-**Engagement and teaming.** I built a reflection template for the semester engagement requirement. I also wrote "The Unaddressed Conflict," a short role-play that students act out and then diagnose during the teaming week.
+**Engagement and teaming.** With the course team, I co-developed a reflection template for the semester engagement requirement and "The Unaddressed Conflict," a short role-play that students act out and then diagnose during the teaming week.
 
 [Browse the materials on GitHub](https://github.com/Hazem-AF-Younis/ecs1100-course-materials)
 
 Industry Sector Job Explorer, ECS 1100
 ------
-*Week 12: Advanced Manufacturing, Biomanufacturing and Supply Chain · Fall 2026*
+*Advanced Manufacturing, Biomanufacturing and Supply Chain · Fall 2026*
 
-An interactive tool built for the industry sector weeks of ECS 1100. It collects 100 real job postings, ten for each of the Jonsson School's ten majors, split across internships and co-ops, early-career roles, and experienced roles. Students pick their major to see which skills employers ask for most often, then open any posting to read a short summary, its degree and eligibility requirements, and the full saved posting.
+I built this interactive tool for the industry sector weeks of ECS 1100. It collects 100 real job postings, ten for each of the Jonsson School's ten majors, split across internships and co-ops, early-career roles, and experienced roles. Students pick their major to see which skills employers ask for most often, then open any posting to read a short summary, its degree and eligibility requirements, and the full saved posting.
 
 The goal is to make an abstract question concrete for first-year students: what does a job in this sector actually ask for, and what can I start building now? Postings were captured from LinkedIn on November 1, 2026.
 
@@ -54,7 +54,7 @@ ECS 1100: Engineering Design Curriculum
 ------
 *Introduction to Engineering and Computer Science · UT Dallas · Fall 2024 and Fall 2025*
 
-Before the redesign, ECS 1100 taught the engineering design process through weekly pre-class, in-class and at-home modules, alongside department sessions for each major. I taught as instructor of record both years, including two Fall 2025 lectures of 297 and 196 students. I helped develop and presented sessions across all sections, including:
+Before the redesign, ECS 1100 taught the engineering design process through weekly pre-class, in-class and at-home modules, alongside department sessions for each major. I taught as instructor of record both years, including two Fall 2025 lectures of 297 and 196 students. Working with the course faculty, I helped develop and presented sessions across all sections, including:
 * The Electrical and Computer Engineering department session.
 * Engineering identity.
 * Requirements generation.
