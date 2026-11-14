@@ -162,16 +162,6 @@ h1, h2, h3, h4,
 .signal-strip__sampled { stroke: var(--hy-signal); stroke-width: 1.8; }
 .signal-strip__clock { stroke: var(--hy-accent); stroke-width: 1.8; }
 
-@media (prefers-reduced-motion: no-preference) {
-  .signal-strip path {
-    stroke-dasharray: 1; 
-    stroke-dashoffset: 1;
-    animation: hy-trace 1.6s ease-out forwards;
-  }
-  .signal-strip__sampled { animation-delay: 0.9s; }
-  .signal-strip__clock { animation-delay: 1.3s; }
-}
-@keyframes hy-trace { to { stroke-dashoffset: 0; } }
 
 .signal-strip + p {
   font-size: 1.12rem;
